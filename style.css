@@ -1,0 +1,51 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+  border: none;
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .name {
+  margin-left: 20px;
+}
+
+.item {
+  margin-bottom: 100px;
+}
+
+.item .name {
+  height: 30px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.item .introduction {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+canvas {
+  width: 500px;
+  height: 500px;
+}
